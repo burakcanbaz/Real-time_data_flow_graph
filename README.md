@@ -15,5 +15,5 @@ in the C # win-form interface simultaneously. To finish writing the value of the
 The drawn graphic is removed from the C # win-form interface and pipe server connection is expected again. 
 Thus, it is aimed to dynamically draw new csv file values ​​to be created with python without restarting the project.
 
-Projec Details
+Project Details
 
