@@ -1,9 +1,9 @@
 # Real-time_data_flow_graph
 
 This project is designed to read the relevant data from the csv file and dynamically present the real-time data flow chart to the user 
-with C # windows form. Although it is a little far from being a comprehensive and usable user interface, it can be made suitable 
+with C# windows form. Although it is a little far from being a comprehensive and usable user interface, it can be made suitable 
 by adding the necessary components. If you already have a csv file for which you need to import the data, you will not need the python code, 
-but for this you will need to change the design of the lastfilepath class in the C # code and remove the pipe server.
+but for this you will need to change the design of the lastfilepath class in the C # code and remove the pipe server. (Zedgraph library was used for real-time flow chart -> http://zedgraph.sourceforge.net/samples.html)
 
 Basically, the working logic of the project is as follows. A csv file is needed to draw the necessary data in the chart. 
 This csv file is generated with python code. The path of the generated csv file should be written in the lastfilepath 
